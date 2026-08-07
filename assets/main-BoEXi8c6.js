@@ -1,4 +1,4 @@
-(function(){let e=document.createElement(`link`).relList;if(e&&e.supports&&e.supports(`modulepreload`))return;for(let e of document.querySelectorAll(`link[rel="modulepreload"]`))n(e);new MutationObserver(e=>{for(let t of e)if(t.type===`childList`)for(let e of t.addedNodes)e.tagName===`LINK`&&e.rel===`modulepreload`&&n(e)}).observe(document,{childList:!0,subtree:!0});function t(e){let t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),t.credentials=e.crossOrigin===`use-credentials`?`include`:e.crossOrigin===`anonymous`?`omit`:`same-origin`,t}function n(e){if(e.ep)return;e.ep=!0;let n=t(e);fetch(e.href,n)}})();var e=`/assets/rioJaguaribe-Z3DOBLRg.jpg`,t=`/assets/ifce-BWMG-GDl.png`,n=`/assets/castanhao-BBuJMvy_.jpg`,r=`/assets/pontal-maceio-DS6AVecd.jpg`,i=`/assets/mirante-barra-DE9KhckF.jpg`,a=`/assets/aracati-teatro-BmN3Fd0b.jpeg`,o=`/assets/canoa-quebrada-broadway-B7R_kLNl.jpg`,s=`/assets/simbolo-canoa-quebrada-BXt7z9EH.jpg`,c=`/assets/rua-grande-Bj6y8SXQ.jpg`,l=`/assets/plato-lagoa-do-mato-DKCy8m71.jpeg`,u=`/assets/igreja-matriz-Y3WgYV-E.jpg`;document.querySelector(`#app`).innerHTML=`
+import{t as e}from"./ifce-x8xmLpEC.js";var t=`/Desenvolvimento_Web_1/assets/rioJaguaribe-Z3DOBLRg.jpg`,n=`/Desenvolvimento_Web_1/assets/castanhao-BBuJMvy_.jpg`,r=`/Desenvolvimento_Web_1/assets/pontal-maceio-DS6AVecd.jpg`,i=`/Desenvolvimento_Web_1/assets/mirante-barra-DE9KhckF.jpg`,a=`/Desenvolvimento_Web_1/assets/aracati-teatro-BmN3Fd0b.jpeg`,o=`/Desenvolvimento_Web_1/assets/canoa-quebrada-broadway-B7R_kLNl.jpg`,s=`/Desenvolvimento_Web_1/assets/simbolo-canoa-quebrada-BXt7z9EH.jpg`,c=`/Desenvolvimento_Web_1/assets/rua-grande-Bj6y8SXQ.jpg`,l=`/Desenvolvimento_Web_1/assets/plato-lagoa-do-mato-DKCy8m71.jpeg`,u=`/Desenvolvimento_Web_1/assets/igreja-matriz-Y3WgYV-E.jpg`;document.querySelector(`#app`).innerHTML=`
       <header>
         <div id= "faixa-superior">
           <nav >
@@ -16,7 +16,7 @@
             </nav>
         </div>
         <div id="faixa-meio">
-          <img id="logo" src="${t}">
+          <img id="logo" src="${e}">
         </div>
         <div id="faixa-inferior">
           <nav class= "menu">
@@ -30,7 +30,7 @@
       <main>
         <section class= "conteudo-main">
           <div class=galeria>
-            <img class="imagem" src= "${e}">
+            <img class="imagem" src= "${t}">
             <details class= "detalhes-galeria">
               <summary>
                 Rio do Jaguaribe
